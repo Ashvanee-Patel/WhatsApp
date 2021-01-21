@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_marginTop="10dp"
-            android:hint="Email/Phone"
+            android:hint="Enter your email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             />
@@ -103,10 +103,10 @@
                 />
         </LinearLayout>
         <TextView
-            android:id="@+id/SignUpPhoneTvSI"
+            android:id="@+id/SignInPhoneTvSI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up with Phone"
+            android:text="Sign In with Phone"
             android:textColor="@color/colorPrimary"
             android:layout_marginTop="15dp"
             />

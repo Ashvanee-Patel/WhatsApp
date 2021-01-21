@@ -99,6 +99,10 @@ public class SignInActivity extends AppCompatActivity {
         binding.googleBtSI.setOnClickListener( v->{
             signIn();
         });
+        binding.SignInPhoneTvSI.setOnClickListener(view -> {
+            startActivity(new Intent(context,SignInPhoneActivity.class));
+            finish();
+        });
     }
 
     private void signIn() {
